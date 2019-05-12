@@ -4,11 +4,11 @@ public class MainPhoneBook {
     public static void main(String[] args) {
 
         PhoneBook phoneBook = new PhoneBook();
-        phoneBook.setContactByName("Василий", 123);
-        phoneBook.setContactByName("Василий", 2222);
-        phoneBook.setContactByName("Андрей", 3333);
-        phoneBook.setContactByName("Михаил", 44444);
-        phoneBook.setContactByName("Андрей", 124124);
+        phoneBook.setContactByName("Василий", 1441269);
+        phoneBook.setContactByName("Василий", 1123312);
+        phoneBook.setContactByName("Андрей", 1326720);
+        phoneBook.setContactByName("Михаил", 1367745);
+        phoneBook.setContactByName("Андрей", 1418910);
 
 
         System.out.println(phoneBook.getContactsByName("Василий"));
